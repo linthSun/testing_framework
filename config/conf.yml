@@ -1,0 +1,15 @@
+#是否发送邮件
+email_enable: true
+
+email :
+  sender:
+    125992****@qq.com
+
+  server:
+    # smtp.126.com
+    smtp.qq.com
+  password:
+    #授权码
+
+  receivers:
+    - 125992****@qq.com

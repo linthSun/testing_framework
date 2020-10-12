@@ -1,0 +1,14 @@
+[2020-09-23 18:13:57,120] - test_interface.py [Line:32] - [INFO]-[thread:177236]-[process:177272] - ---baidu用例开始执行---
+[2020-09-23 18:13:57,120] - send_request.py [Line:15] - [INFO]-[thread:177236]-[process:177272] - {'testcase_name': 'baidu', 'id': 'tt', 'url': 'https://www.baidu.com', 'method': 'get', 'params': None, 'headers': None, 'payload': None, 'type_': None, 'status_code': 200, 'response': None, 'execpt': None, 'result': None}
+[2020-09-23 18:13:57,761] - send_request.py [Line:33] - [INFO]-[thread:177236]-[process:177272] - https://www.baidu.com/
+[2020-09-23 18:13:57,761] - test_interface.py [Line:35] - [INFO]-[thread:177236]-[process:177272] - ---baidu用例执行结束---
+[2020-09-23 18:13:57,762] - test_interface.py [Line:32] - [INFO]-[thread:177236]-[process:177272] - ---login用例开始执行---
+[2020-09-23 18:13:57,766] - send_request.py [Line:15] - [INFO]-[thread:177236]-[process:177272] - {'testcase_name': 'login', 'id': 'testcase_1', 'url': 'http://172.20.82.58/auth/login/login', 'method': 'get', 'params': '{\n    "username": "admin",\n    "password": "admin"\n}', 'headers': None, 'payload': None, 'type_': None, 'status_code': '200', 'response': None, 'execpt': None, 'result': None}
+[2020-09-23 18:13:57,775] - send_request.py [Line:33] - [INFO]-[thread:177236]-[process:177272] - http://172.20.82.58/auth/login/login?username=admin&password=admin
+[2020-09-23 18:13:57,775] - test_interface.py [Line:35] - [INFO]-[thread:177236]-[process:177272] - ---login用例执行结束---
+[2020-09-23 18:13:57,776] - test_interface.py [Line:32] - [INFO]-[thread:177236]-[process:177272] - ---creat用例开始执行---
+[2020-09-23 18:13:57,776] - send_request.py [Line:15] - [INFO]-[thread:177236]-[process:177272] - {'testcase_name': 'creat', 'id': 'test', 'url': 'http://172.20.82.58/api/vnnb/v1/tenant', 'method': 'post', 'params': None, 'headers': '{"Authorization": "Basic YWRtaW46YWRtaW4=",\n    "Content-Type": "application/json"}', 'payload': '{\n    "name": "test2",\n    "fabric": "default",\n    "origin": "Local",\n    "uuid": "",\n    "description": ""\n}', 'type_': 'json', 'status_code': 200, 'response': None, 'execpt': None, 'result': None}
+[2020-09-23 18:13:57,776] - send_request.py [Line:31] - [DEBUG]-[thread:177236]-[process:177272] - "{\n    \"name\": \"test2\",\n    \"fabric\": \"default\",\n    \"origin\": \"Local\",\n    \"uuid\": \"\",\n    \"description\": \"\"\n}"
+[2020-09-23 18:13:57,818] - send_request.py [Line:33] - [INFO]-[thread:177236]-[process:177272] - http://172.20.82.58/api/vnnb/v1/tenant
+[2020-09-23 18:13:57,818] - test_interface.py [Line:35] - [INFO]-[thread:177236]-[process:177272] - ---creat用例执行结束---
+[2020-09-23 18:14:04,287] - send_email.py [Line:67] - [INFO]-[thread:177236]-[process:177272] - 邮件发送成功
